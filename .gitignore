@@ -1,6 +1,8 @@
 bring2lite/classes/__pycache__
 bring2lite/classes/debug.log
-build/*
-dist/*
-tester/*
-venv1/*
+build/
+dist/
+result/
+tester/
+venv1/
+debug.log
