@@ -1,1 +1,12 @@
-bring2lite readme
+#Readme
+##Installation
+
+##Used libraries
+
+##Tasklist
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
