@@ -1,0 +1,6 @@
+bring2lite/classes/__pycache__
+bring2lite/classes/debug.log
+build/*
+dist/*
+tester/*
+venv1/*
