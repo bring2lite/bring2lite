@@ -15,14 +15,24 @@ main.py --filename /path/to/file --out /path/to/output/folder
 main.py --journal /path/to/journal/file --out /path/to/output/folder
 ````
 
+- **Process a single WAL file:**
+````bash
+main.py --wal /path/to/wal/file --out /path/to/output/folder
+````
+
 - **Process a single database main file:**
 ````bash
-main.py --wal /path/to/journal/file --out /path/to/output/folder
+main.py --filename /path/to/database/file --out /path/to/output/folder
 ````
 
 - **Process all files within a single folder and all sub-folders:**
 ````bash
 main.py --folder /path/to/folder --out /path/to/output/folder
+````
+
+- **Process a single database main file with GUI (EXPERIMENTAL):**
+````bash
+main.py --filename /path/to/database/file --out /path/to/output/folder --gui 1
 ````
 
 
