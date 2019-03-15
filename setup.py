@@ -14,13 +14,15 @@ setup(name='bring2lite',
       url='',
       author='Christian Meng,'
              'Harald Baier',
-      author_email='meng.chr@googlemail.com',
+      author_email='bring2lite@gmail.com',
       license='MIT',
       install_requires=[
           'tqdm',
           'sqlparse',
           'colorama',
           'pyqt5',
-	  
+      ],
+      hiddenimports=[
+          'PyQt5.sip'
       ],
       zip_safe=True)
