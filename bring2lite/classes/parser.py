@@ -152,14 +152,16 @@ class Parser:
 
     def single_varint(self, data, index=0):
         varint = 0
+        #loop until the value of a byte is lower than 128
         for i in range(0, 9):
             index += 1
             if ord(data[i:i + 1]) < 128:
                 break
         tmp = ""
         for i in range(0, index):
+            #transform the binary data(binary -> int -> bit representation (concat all results))
             tmp += format((ord(data[i:i+1])), '#010b')[3:]
-
+        #transformate the bit represntation back into an integer
         varint = int(tmp, 2)
         return varint, index
 
