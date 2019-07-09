@@ -9,7 +9,7 @@ The tool was developed to process SQLite databases in respect of deleted records
 1. Clone the repository
 2. cd into the repository
 3. ````python3 setup.py install````
-4. ````pip3 install pyqt5```
+4. ````pip3 install pyqt5````
 ## Usage
 
 - **Process a single database main file:**
@@ -54,4 +54,6 @@ main.py --filename /path/to/database/file --out /path/to/output/folder --gui 1
 ## Tasklist
 - [ ] Better error handling
 - [ ] Display all processed informations in a interactive GUI
-
+- [ ] Fix a bug that sometimes do not add the SQLite schema to the top of a outputfile
+- [ ] Fix a bug which adds a line of # after each outputline
+- [ ] Optimize parsing algorithm to process multiple freeblocks in a row
