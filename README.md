@@ -57,3 +57,4 @@ main.py --filename /path/to/database/file --out /path/to/output/folder --gui 1
 - [ ] Fix a bug that sometimes do not add the SQLite schema to the top of a outputfile
 - [ ] Fix a bug which adds a line of # after each outputline
 - [ ] Optimize parsing algorithm to process multiple freeblocks in a row
+- [ ] The name of a created file is off by one 
