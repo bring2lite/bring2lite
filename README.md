@@ -3,7 +3,10 @@
 The tool was developed to process SQLite databases in respect of deleted records. Therefore, bring2lite is able to analyse the structures within the main database, WAL and journal files.
 
 ## Requirements
+- Python3
 
+## Licence
+- CC-BY-NC
 
 ## Installation
 1. Clone the repository
